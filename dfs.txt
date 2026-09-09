@@ -1,0 +1,38 @@
+Menú Digital de Comidas Rápidas
+Seccion de Hamburguesas
+Seccion de perros
+Seccion de pizzas
+Seccion de Bebidas
+Seccion de postres
+Seccion de promociones
+Seccion de Nosotros
+
+Contenido obligatorio de cada vista de categoría
+
+Cada una de las 5 vistas o secciones de comida  debe incluir:
+
+Imagen de portada de la categoría (banner horizontal apetitoso).
+Nombre de la categoría como título principal.
+Descripción breve de la categoría 
+
+Mínimo 4 productos contenido de la card, cada uno con:
+Foto del producto.
+Nombre.
+Descripción con ingredientes.
+Precio en pesos colombianos (formato legible, ej. $18.500).
+Etiqueta opcional (Nuevo, Más pedido, Picante, Vegetariano).
+Recomendación del chef destacada (un producto de la categoría con diseño diferenciado).
+
+Contenido obligatorio de la vista Nosotros
+Historia breve del restaurante.
+Dirección y horarios de atención.
+Teléfono y WhatsApp de pedidos.
+Fotos y nombres del equipo (mínimo 3 personas: chef, cajero, domiciliario). 
+
+Restricicones tecnicas
+- Usar quasar
+- No usar ningun tema que no se haya visto en clase
+- Utilizar imagenes de internet para las card de los productos
+- Diseño UI y UX
+- Buena navegacion
+- Usar vue router
