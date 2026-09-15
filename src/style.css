@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --q-primary: #ff5722; /* Vibrant Orange */
+  --q-secondary: #ff9800; 
+  --q-accent: #ffeb3b;
+  --q-dark: #121212;
+  --q-dark-page: #1e1e1e;
+  --q-positive: #21ba45;
+  --q-negative: #c10015;
+  --q-info: #31ccec;
+  --q-warning: #f2c037;
+  
+  --ff-heading: 'Oswald', sans-serif;
+  --ff-body: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--ff-body);
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6, 
+.text-h1, .text-h2, .text-h3, .text-h4, .text-h5, .text-h6,
+.font-oswald, .q-toolbar-title, .nav-link, .q-tab__label {
+  font-family: var(--ff-heading) !important;
+  text-transform: uppercase;
+}
+
+.text-primary {
+  color: var(--q-primary) !important;
+}
+
+.bg-primary {
+  background: var(--q-primary) !important;
+}
+
+.bg-dark {
+  background: var(--q-dark) !important;
+}
+
+/* Custom Nav Links */
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 0 15px;
+}
+
+.nav-link:hover {
+  color: var(--q-primary) !important;
+}
+
+.q-tab__label {
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+/* Footer styling */
+.footer-heading {
+  font-family: var(--ff-heading);
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.footer-link {
+  color: #bbb;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 12px;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.footer-link:hover {
+  color: var(--q-primary);
+  padding-left: 5px;
+}
+
+.newsletter-box {
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  margin-top: -60px;
+  background: #fff;
+  z-index: 10;
+  position: relative;
+}
+
+.order-btn {
+  font-family: var(--ff-heading);
+  font-size: 1rem;
+  border-radius: 25px;
+  padding: 6px 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Header transition */
+.q-header {
+  transition: all 0.3s ease;
+}
+
+.top-bar {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.85rem;
+}
