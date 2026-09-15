@@ -113,7 +113,7 @@
 </template>
 
 <script setup>
-// Lógica para la vista Nosotros (sin datos reactivos por ahora)
+
 </script>
 
 <style scoped>

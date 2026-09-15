@@ -14,7 +14,7 @@
     <div class="q-pa-lg">
       <div class="row q-col-gutter-xl justify-center">
         <div v-for="p in productos" :key="p.id" class="col-12 col-sm-6 col-md-4 col-lg-3 flex">
-          <q-card class="my-card column full-width" :class="{ 'chef-recommendation': p.recomienda }" flat bordered>
+          <q-card class="my-card column full-width bg-dark text-white" :class="{ 'chef-recommendation': p.recomienda }" flat bordered>
             <div v-if="p.recomienda" class="ribbon-wrapper">
               <div class="ribbon bg-orange-9 text-white text-weight-bold shadow-2">
                 <q-icon name="star" size="xs" class="q-mr-xs" /> CHEF
@@ -33,18 +33,18 @@
 
             <q-card-section class="col-grow q-pt-md">
               <div class="row items-center justify-between q-mb-xs">
-                <div class="text-h5 text-weight-bold">{{ p.titulo }}</div>
+                <div class="text-h5 font-oswald text-weight-bold text-uppercase">{{ p.titulo }}</div>
               </div>
 
-              <div class="text-body2 text-grey-7 q-mt-sm">
+              <div class="text-body2 text-grey-4 q-mt-sm">
                 {{ p.descripcion }}
               </div>
             </q-card-section>
 
-            <q-separator />
+            <q-separator dark />
 
-            <q-card-actions align="between" class="q-pa-md bg-grey-1 items-center">
-              <div class="text-h5 text-weight-bolder text-primary">
+            <q-card-actions align="between" class="q-pa-md bg-dark-page items-center">
+              <div class="text-h5 font-oswald text-weight-bolder text-primary">
                 {{ formatPrice(p.precio) }}
               </div>
             </q-card-actions>

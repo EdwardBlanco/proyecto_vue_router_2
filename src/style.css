@@ -28,18 +28,6 @@ h1, h2, h3, h4, h5, h6,
   text-transform: uppercase;
 }
 
-.text-primary {
-  color: var(--q-primary) !important;
-}
-
-.bg-primary {
-  background: var(--q-primary) !important;
-}
-
-.bg-dark {
-  background: var(--q-dark) !important;
-}
-
 /* Custom Nav Links */
 .nav-link {
   font-size: 1.1rem;
